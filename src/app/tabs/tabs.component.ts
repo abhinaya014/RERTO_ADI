@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IonTabButton, IonTabBar, IonIcon } from "@ionic/angular/standalone";
 
 @Component({
   selector: 'app-tabs',
