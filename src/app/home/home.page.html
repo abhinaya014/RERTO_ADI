@@ -7,14 +7,29 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  
 </ion-content>
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="page1">
+      <img src="assets/img/aplicaciones.png" alt="Aplicaciones" style="width: 30%; ">
+      <ion-label>Servicios</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="page2">
+      <img src="assets/img/ubicacion.png" alt="Ubicacion" style="width: 30%; ">
+      <ion-label>Ubicación</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="page3">
+      <img src="assets/img/galeria1.png" alt="Galeria" style="width: 30%; ">
+      <ion-label>Galeria</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="page4">
+      <img src="assets/img/libro-abierto.png" alt="Historia" style="width: 30%; ">
+      <ion-label>Historia</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
